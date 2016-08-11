@@ -198,7 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/ark/peach/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
 	vendor/ark/peach/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-	vendor/ark/peach/proprietary/lib/lib-mmqcamera.so:system/lib/lib-mmqcamera.so \
+	vendor/ark/peach/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
 	vendor/ark/peach/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so
 endif
 
