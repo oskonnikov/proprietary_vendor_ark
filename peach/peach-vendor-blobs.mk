@@ -197,9 +197,9 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/ark/peach/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/ark/peach/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
-	vendor/ark/peach/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-	vendor/ark/peach/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-	vendor/ark/peach/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so
+    vendor/ark/peach/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/ark/peach/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/ark/peach/proprietary/priv-app/FootejCamera/FootejCamera.apk:system/priv-app/FootejCamera/FootejCamera.apk
 endif
 
 PRODUCT_COPY_FILES += \
