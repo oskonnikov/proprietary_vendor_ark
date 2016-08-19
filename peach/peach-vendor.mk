@@ -91,9 +91,9 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/ark/peach/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/ark/peach/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
+    vendor/ark/peach/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/ark/peach/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
+    vendor/ark/peach/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
     vendor/ark/peach/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/ark/peach/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/ark/peach/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
@@ -102,30 +102,30 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/ark/peach/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/ark/peach/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_gc2355_back_common.so:system/vendor/lib/libchromatix_gc2355_back_common.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_gc2355_back_preview.so:system/vendor/lib/libchromatix_gc2355_back_preview.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_gc2355_front_1lane_common.so:system/vendor/lib/libchromatix_gc2355_front_1lane_common.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_gc2355_front_1lane_preview.so:system/vendor/lib/libchromatix_gc2355_front_1lane_preview.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_gc2355_front_common.so:system/vendor/lib/libchromatix_gc2355_front_common.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_gc2355_front_preview.so:system/vendor/lib/libchromatix_gc2355_front_preview.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_common.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_common.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_default_video.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_default_video.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_120fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_120fps.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_60fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_60fps.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_90fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_90fps.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_liveshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_liveshot.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_preview.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_preview.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_snapshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_snapshot.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_video_hd.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_video_hd.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_common.so:system/vendor/lib/libchromatix_s5k4h5_8916_common.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_default_video.so:system/vendor/lib/libchromatix_s5k4h5_8916_default_video.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_hfr_120fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_hfr_120fps.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_hfr_60fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_hfr_60fps.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_hfr_90fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_hfr_90fps.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_liveshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_liveshot.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_preview.so:system/vendor/lib/libchromatix_s5k4h5_8916_preview.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_snapshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_snapshot.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libchromatix_s5k4h5_8916_video_hd.so:system/vendor/lib/libchromatix_s5k4h5_8916_video_hd.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_gc2355_back_common.so:system/vendor/lib/libchromatix_gc2355_back_common.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_gc2355_back_preview.so:system/vendor/lib/libchromatix_gc2355_back_preview.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_gc2355_front_1lane_common.so:system/vendor/lib/libchromatix_gc2355_front_1lane_common.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_gc2355_front_1lane_preview.so:system/vendor/lib/libchromatix_gc2355_front_1lane_preview.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_gc2355_front_common.so:system/vendor/lib/libchromatix_gc2355_front_common.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_gc2355_front_preview.so:system/vendor/lib/libchromatix_gc2355_front_preview.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_common.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_common.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_default_video.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_default_video.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_120fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_120fps.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_60fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_60fps.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_90fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_hfr_90fps.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_liveshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_liveshot.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_preview.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_preview.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_snapshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_snapshot.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_back_video_hd.so:system/vendor/lib/libchromatix_s5k4h5_8916_back_video_hd.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_common.so:system/vendor/lib/libchromatix_s5k4h5_8916_common.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_default_video.so:system/vendor/lib/libchromatix_s5k4h5_8916_default_video.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_hfr_120fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_hfr_120fps.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_hfr_60fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_hfr_60fps.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_hfr_90fps.so:system/vendor/lib/libchromatix_s5k4h5_8916_hfr_90fps.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_liveshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_liveshot.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_preview.so:system/vendor/lib/libchromatix_s5k4h5_8916_preview.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_snapshot.so:system/vendor/lib/libchromatix_s5k4h5_8916_snapshot.so \
+    vendor/ark/peach/proprietary/vendor/lib/libchromatix_s5k4h5_8916_video_hd.so:system/vendor/lib/libchromatix_s5k4h5_8916_video_hd.so \
     vendor/ark/peach/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/ark/peach/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/ark/peach/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -162,32 +162,32 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/ark/peach/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/ark/peach/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_gc2355_back.so:system/vendor/lib/libmmcamera_gc2355_back.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_gc2355_front.so:system/vendor/lib/libmmcamera_gc2355_front.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_gc2355_front_1lane.so:system/vendor/lib/libmmcamera_gc2355_front_1lane.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_s5k4h5_8916.so:system/vendor/lib/libmmcamera_s5k4h5_8916.so \
-    vendor/ark/benefit/proprietary/vendor/lib/libmmcamera_s5k4h5_8916_back.so:system/vendor/lib/libmmcamera_s5k4h5_8916_back.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_gc2355_back.so:system/vendor/lib/libmmcamera_gc2355_back.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_gc2355_front.so:system/vendor/lib/libmmcamera_gc2355_front.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_gc2355_front_1lane.so:system/vendor/lib/libmmcamera_gc2355_front_1lane.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_s5k4h5_8916.so:system/vendor/lib/libmmcamera_s5k4h5_8916.so \
+    vendor/ark/peach/proprietary/vendor/lib/libmmcamera_s5k4h5_8916_back.so:system/vendor/lib/libmmcamera_s5k4h5_8916_back.so \
     vendor/ark/peach/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/ark/peach/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/ark/peach/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
