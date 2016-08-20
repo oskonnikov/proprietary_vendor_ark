@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/ark/peach/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/ark/peach/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/ark/peach/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/ark/peach/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/ark/peach/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/ark/peach/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
