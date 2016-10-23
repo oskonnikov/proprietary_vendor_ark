@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/ark/peach/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/ark/peach/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/ark/peach/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/ark/peach/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/ark/peach/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/ark/peach/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
