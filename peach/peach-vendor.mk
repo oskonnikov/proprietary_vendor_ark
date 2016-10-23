@@ -262,11 +262,10 @@ PRODUCT_COPY_FILES += \
     vendor/ark/peach/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/ark/peach/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/ark/peach/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    
-    #Prebuit Camera HAL
     vendor/ark/peach/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/ark/peach/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/ark/peach/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so
+    vendor/ark/peach/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/ark/peach/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
