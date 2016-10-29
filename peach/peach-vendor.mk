@@ -278,6 +278,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     CNEService \
+    Camera2 \
     com.qualcomm.location \
     qcrilmsgtunnel \
     cneapiclient \

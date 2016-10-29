@@ -94,6 +94,16 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Camera2
+LOCAL_MODULE_OWNER := ark
+LOCAL_SRC_FILES := proprietary/priv-app/Camera2/Camera2.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := ark
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
